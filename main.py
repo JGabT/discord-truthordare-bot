@@ -7,9 +7,9 @@ from discord.ext import commands
 
 
 mydb = mysql.connector.connect(
-  host="dbip",
-  user="usernamedb",
-  password="passworddb"
+  host="hosthere",
+  user="dbuser",
+  password="dbpass"
 )
 
 print(mydb)
